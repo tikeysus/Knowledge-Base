@@ -20,6 +20,7 @@ This lecture explains about the second part of this course.
 AND, OR, XOR, NOT
 
 ![alt](images/image-20240111-000601.png)
+
 What is nice about boolean functions is that they can only accept a constant number of inputs.
 #### Boolean Identities
 | Commutative Laws | Associative Laws | Distributive Laws | De Morgan Laws |
@@ -58,6 +59,7 @@ Logic Gates:
 ![](images/image-20240111-221050.png)
 
 Implementation is different than the interface. It is hidden, if we want to see it we have to explore the next level of the abstraction.
+
 ![](images/image-20240111-221355.png)
 
 ### Unit 1.4: Hardware Description Language
