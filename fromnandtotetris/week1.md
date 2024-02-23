@@ -1,7 +1,9 @@
 # Week 1
 ## Introduction
 ### Unit 0.0: Introduction
+
 ![alt text](images/image.png)
+
 ### Unit 0.1: The Road Ahead
 - Don’t worry about the how worry about the what?
 - Hello World, is kind of a simple program but not really at the same time. Since printing a text involves in changing the colours on a screen, sending these instructions to the “monitor”, etc.
@@ -30,12 +32,14 @@ What is nice about boolean functions is that they can only accept a constant num
 |(x XOR y) = (y XOR x)|((x XOR y) XOR z) = (x XOR (y XOR z))|(x XOR (y AND z)) = (x XOR y) AND (x XOR z)||
 
 ![alt](images/image-20240131-153917.png)
+
 ### Unit 1.2: Boolean Functions Synthesis
 > Key idea of this lecture is constructing the disjunctive normal form of a boolean function. DNF
 
 The point is given a truth table construct a boolean function. That’s how logic gates are designed. For example a half adder.
 
 ![alt](images/image-20240111-002708.png)
+
 For each of the 1s in a row we design a function that achieves a 1 on that row and 0 everywhere else. Then we OR all these expression together.
 
 > Any boolean function can be represented using an expression containing AND, OR, and NOT operations. Actually we can do it with just AND and NOT operations. Because of de Morgan’s.
@@ -63,13 +67,16 @@ Implementation is different than the interface. It is hidden, if we want to see 
 ![](images/image-20240111-221355.png)
 
 ### Unit 1.4: Hardware Description Language
+
 ![](images/image-20240112-212912.png)
 
 Implementation of a Xor logic with And, Not and Or gates.
+
 ![](images/image-20240112-213209.png)
 
 All the connections need to be named.
 Then in the PARTS section we describe all the connections coming in and out of individual gates.
+
 ![](images/image-20240112-214044.png)
 
 As many gates/chips we have in our diagram we will have that many statements in the PARTS section. Inputs and outputs are already described in the IN and OUT sections.
@@ -90,7 +97,9 @@ And a .tst file is sort of a script that instead of manually flipping bits let�
 
 #### Unit 1.6: Multi-Bit Buses
 As the name suggests we need these when manipulating bunch of bits together as one entity. Bunch of bits together are called a bus.
+
 ![](images/image-20240122-221351.png)
+
 ![](images/image-20240122-221426.png)
 
 When we declare, `a[16]` that means a is a 16 bit bus. 
@@ -115,6 +124,8 @@ When we declare, `a[16]` that means a is a 16 bit bus.
  
  
 ### Unit 1.8: Perspectives
+
 ![](images/image-20240207-230950.png)
+
 - we can build a computer with just nand gates or nor gates
 - nmos implementation of a nand gate
