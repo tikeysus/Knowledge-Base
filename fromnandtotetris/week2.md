@@ -8,7 +8,9 @@ We will be focusing on creating adders, chips designed to add numbers. We will t
 Nothing new here.
 ### Unit 2.2: Binary Addition
 Addition we will implement in hardware. Then Subtraction and which is greater we get for free. Multiplication and Division will be implemented with software.
+
 ![](images/image-20240110-161439.png)
+
 Addition is not really mathematical since if adding two numbers exceeds the words size, the computer will just  ignore the extra bits.
 
 Build an Adder:
