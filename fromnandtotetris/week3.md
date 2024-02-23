@@ -50,3 +50,7 @@
 Notice the difference in this context, between a d flip flop and load. d flip flop only remembers the state at time (t - 1), a load chip will remember the value forever, as long as no new load instruction is supplied (change the load input).
 
 > In summary, a D flip-flop's output changes with each clock pulse, capturing the input value at that moment (t - 1), while a load chip's output remains constant until a new load instruction is given.
+
+Remember that the load bit, isn't the one that goes to output. It just says that if load == 0, then output is the same output as the out of last time unit, if load == 1, then we change the output.
+
+`If load(t - 1 ) then out(t) = in(t - 1) else out(t) = out(t - 1)`
