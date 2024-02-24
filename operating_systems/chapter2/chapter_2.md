@@ -15,3 +15,6 @@ These calls are generally available as functions written in C and C++, although 
 Two broad types of communication between two processes (message-passing model vs shared memory model)
 
 
+
+
+
